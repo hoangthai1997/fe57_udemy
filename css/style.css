@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__left a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header__left .categories {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header__left form {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+.header__left form .input-group {
+  border: 1px solid #00000026;
+}
+
+.header__left form input {
+  border: transparent;
+}
+
+.header__left form input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header__left form i {
+  padding: 10px;
+  color: red;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header__left form i:hover {
+  background-color: red;
+  color: white;
+}
+
+.header__right .btn-login {
+  border: 1px solid #00000026;
+}
+
+#carousel {
+  background-image: url("./../img/cover.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#carousel form {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+#carousel form .input-group {
+  border: 1px solid #00000026;
+}
+
+#carousel form input {
+  border: transparent;
+}
+
+#carousel form input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#carousel form i {
+  padding: 10px;
+  color: red;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#carousel form i:hover {
+  background-color: red;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

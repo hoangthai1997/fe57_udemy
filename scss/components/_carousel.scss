@@ -1,0 +1,13 @@
+#carousel {
+  background-image: url("./../img/cover.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: $color-second;
+
+  display: flex;
+  align-items: center;
+
+  @include search();
+}
